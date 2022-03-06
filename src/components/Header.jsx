@@ -8,11 +8,12 @@ import { FaTwitter } from "react-icons/fa";
 const Header = () => (
   <div className="navigate d-flex gen-padding ">
     <img
-      style={{ width: "50px", height: "50px", borderRadius: "100%" }}
+      className="profile-pix"
+      style={{ width: "30px", height: "30px", borderRadius: "100%" }}
       src={img}
       alt="Atsighi Bright"
     />
-    <nav>
+    <nav className="navigations">
       <ul className="d-flex">
         <li>Home</li>
         <li>Skills</li>
@@ -21,11 +22,11 @@ const Header = () => (
         <li>Contact</li>
       </ul>
     </nav>
-    <div>
-      <FaLinkedin />
-      <FaGithub />
-      <FaMedium />
-      <FaTwitter />
+    <div className="handles">
+      <FaLinkedin className="handle" />
+      <FaGithub className="handle" />
+      <FaMedium className="handle" />
+      <FaTwitter className="handle" />
     </div>
   </div>
 );
