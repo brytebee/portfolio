@@ -1,3 +1,9 @@
-const App = () => <div className="App">Atsighi Bright</div>;
+import Header from "./components/Header";
+
+const App = () => (
+  <div className="App">
+    <Header />
+  </div>
+);
 
 export default App;
