@@ -1,5 +1,5 @@
 import React from "react";
 
-const Projects = () => <div>Projects</div>;
+const Projects = () => <div className="gen-padding">Projects</div>;
 
 export default Projects;
