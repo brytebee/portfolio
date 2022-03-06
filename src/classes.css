@@ -1,3 +1,7 @@
+.navigations {
+  text-decoration: none;
+}
+
 .navigate {
   justify-content: space-between;
   align-items: center;
@@ -5,4 +9,5 @@
 
 .handle {
   padding: 0 8px;
+  font-size: 23px;
 }

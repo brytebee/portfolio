@@ -58,10 +58,18 @@ const Header = () => (
         </ul>
       </nav>
       <div className="handles">
-        <a onClick={handleLinkedIn}>{<FaLinkedin className="handle" />}</a>
-        <a onClick={handleGithub}>{<FaGithub className="handle" />}</a>
-        <a onClick={handleMedium}>{<FaMedium className="handle" />}</a>
-        <a onClick={handleTwitter}>{<FaTwitter className="handle" />}</a>
+        <a onClick={handleLinkedIn}>
+          {<FaLinkedin style={{ color: "#0e76a8" }} className="handle" />}
+        </a>
+        <a onClick={handleGithub}>
+          {<FaGithub style={{ color: "#171515" }} className="handle" />}
+        </a>
+        <a onClick={handleMedium}>
+          {<FaMedium style={{ color: "#0000cd" }} className="handle" />}
+        </a>
+        <a onClick={handleTwitter}>
+          {<FaTwitter style={{ color: "#00acee" }} className="handle" />}
+        </a>
       </div>
     </div>
     <hr />
