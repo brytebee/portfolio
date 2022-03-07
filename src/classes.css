@@ -11,3 +11,6 @@
   padding: 0 8px;
   font-size: 23px;
 }
+
+@media screen and (max-width: 600px) {
+}
