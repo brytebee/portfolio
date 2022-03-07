@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import Toggle from "./Toggle";
 
 const handleTwitter = () => {
   window.open("http://twitter.com/brytebee");
@@ -33,6 +34,7 @@ const Header = () => (
           alt="Atsighi Bright"
         />
       </NavLink>
+      <Toggle />
       <nav className="navigations">
         <ul className="d-flex">
           <li>
