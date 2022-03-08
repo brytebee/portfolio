@@ -10,8 +10,7 @@ const Header = () => (
     <div className="navigate d-flex gen-padding ">
       <ProfilePix />
       <Toggle />
-      <Navigation />
-      <SocialHandles />
+      <Hamburger />
     </div>
     <hr />
   </>

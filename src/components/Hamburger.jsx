@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import { FaToggleOn, FaToggleOff } from "react-icons/fa";
+import { GrClose } from "react-icons/gr";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-const Toggle = () => {
+const Hamburger = () => {
   const [state, setState] = useState(false);
 
-  const handleToggle = () => {
+  const handleHamburger = () => {
     setState(state ? false : true);
   };
 
@@ -13,21 +14,21 @@ const Toggle = () => {
       {state && (
         <a
           style={{ color: "purple", fontSize: "25px", paddingTop: "10px" }}
-          onClick={handleToggle}
+          onClick={handleHamburger}
         >
-          {<FaToggleOn />}
+          {<GrClose />}
         </a>
       )}
       {!state && (
         <a
           style={{ color: "purple", fontSize: "25px", paddingTop: "10px" }}
-          onClick={handleToggle}
+          onClick={handleHamburger}
         >
-          {<FaToggleOff />}
+          {<GiHamburgerMenu />}
         </a>
       )}
     </div>
   );
 };
 
-export default Toggle;
+export default Hamburger;
