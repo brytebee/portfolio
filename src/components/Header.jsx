@@ -7,13 +7,12 @@ import Hamburger from "./Hamburger";
 
 const Header = () => (
   <>
-    <div className="navigate d-flex gen-padding ">
+    <div className="navigate d-flex gen-padding nav-desktop">
       <ProfilePix />
       <Toggle />
       <Navigation />
       <SocialHandles />
     </div>
-    <hr />
   </>
 );
 

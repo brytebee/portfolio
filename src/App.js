@@ -5,10 +5,13 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Header from "./components/Header";
+import HeaderMobile from "./components/HeaderMobile";
 
 const App = () => (
   <div className="App">
     <Header />
+    <HeaderMobile />
+    <hr />
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/skills" element={<Skills />} />

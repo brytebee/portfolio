@@ -7,13 +7,22 @@
   align-items: center;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 .handle {
   padding: 0 8px;
   font-size: 23px;
 }
 
-@media screen and (max-width: 600px) {
-  .navigations {
+@media screen and (max-width: 769px) {
+  .nav-desktop {
     display: none;
+  }
+
+  .nav-mobile {
+    display: inline-flex;
+    justify-content: space-between;
   }
 }
