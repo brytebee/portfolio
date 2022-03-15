@@ -32,44 +32,34 @@ const Skills = () => (
     <div>
       <h2>Programming languages</h2>
       <p>
-        JavaScript: <Progress value={80} />
+        JavaScript: <Progress progress={80} />
       </p>
       <p>
-        Ruby: <Progress value={70} />
+        Ruby: <Progress progress={70} />
       </p>
       <p>
-        HTML5: <Progress value={95} />
+        HTML5: <Progress progress={95} />
       </p>
       <p>
-        CSS: <Progress value={65} />
+        CSS: <Progress progress={65} />
       </p>
       <p>
-        SQL: <Progress value={85} />
+        SQL: <Progress progress={85} />
       </p>
       <p>
-        Haml: <Progress value={60} />
+        Haml: <Progress progress={60} />
       </p>
     </div>
     <div>
-      name: 'Frameworks', ReactJS: 80, 'Ruby on Rails': 70, Bootstrap: 95,
-      <h2>Programming languages</h2>
+      <h2>Frameworks</h2>
       <p>
-        JavaScript: <Progress value={80} />
+        ReactJS: <Progress progress={80} />
       </p>
       <p>
-        Ruby: <Progress value={70} />
+        Ruby on Rails: <Progress progress={70} />
       </p>
       <p>
-        HTML5: <Progress value={95} />
-      </p>
-      <p>
-        CSS: <Progress value={65} />
-      </p>
-      <p>
-        SQL: <Progress value={85} />
-      </p>
-      <p>
-        Haml: <Progress value={60} />
+        Bootstrap: <Progress progress={95} />
       </p>
     </div>
   </div>

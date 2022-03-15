@@ -17,7 +17,7 @@
 }
 
 .progressbar {
-  width: 10%;
+  color: blue;
 }
 
 @media screen and (max-width: 769px) {
