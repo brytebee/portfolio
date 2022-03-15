@@ -217,6 +217,7 @@ const colors = [
   '#FFF',
 ];
 
-const generateColor = colors[Math.floor(Math.random() * colors.length)];
-
+const generateColor =
+  colors[Math.floor(Math.random() * colors.length)].toLowerCase();
+// console.log(generateColor);
 export default generateColor;
