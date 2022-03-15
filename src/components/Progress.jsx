@@ -4,7 +4,6 @@ import { PropTypes } from 'prop-types';
 
 const Progress = ({ progress }) => (
   <CircularProgress
-    color="inherit"
     size={95}
     thickness={2}
     className="progressbar"
@@ -15,6 +14,7 @@ const Progress = ({ progress }) => (
 
 Progress.propTypes = {
   progress: PropTypes.number.isRequired,
+  color: PropTypes.string.isRequired,
 };
 
 export default Progress;

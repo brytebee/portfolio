@@ -1,5 +1,6 @@
 import React from 'react';
 import Progress from '../components/Progress';
+import generateColor from '../data/generateColor';
 
 const techs = [
   {
@@ -30,54 +31,55 @@ const techs = [
 const Skills = () => (
   <div className="gen-padding">
     <div>
-      <h2>Programming languages</h2>
+      <h2 style={{ color: generateColor }}>Programming languages</h2>
       <p>
-        JavaScript: <Progress progress={80} />
+        JavaScript: <Progress progress={80} style={{ color: generateColor }} />
       </p>
       <p>
-        Ruby: <Progress progress={70} />
+        Ruby: <Progress progress={70} style={{ color: generateColor }} />
       </p>
       <p>
-        HTML5: <Progress progress={95} />
+        HTML5: <Progress progress={95} style={{ color: generateColor }} />
       </p>
       <p>
-        CSS: <Progress progress={65} />
+        CSS: <Progress progress={65} style={{ color: generateColor }} />
       </p>
       <p>
-        SQL: <Progress progress={85} />
+        SQL: <Progress progress={85} style={{ color: generateColor }} />
       </p>
       <p>
-        Haml: <Progress progress={60} />
+        Haml: <Progress progress={60} style={{ color: generateColor }} />
       </p>
     </div>
     <div>
       <h2>Frameworks</h2>
       <p>
-        ReactJS: <Progress progress={80} />
+        ReactJS: <Progress progress={80} style={{ color: generateColor }} />
       </p>
       <p>
-        Ruby on Rails: <Progress progress={70} />
+        Ruby on Rails:{' '}
+        <Progress progress={70} style={{ color: generateColor }} />
       </p>
       <p>
-        Bootstrap: <Progress progress={95} />
+        Bootstrap: <Progress progress={95} style={{ color: generateColor }} />
       </p>
     </div>
     <div>
       <h2>Technologies</h2>
       <p>
-        MySQL: <Progress progress={50} />
+        MySQL: <Progress progress={50} style={{ color: generateColor }} />
       </p>
       <p>
-        Netlify: <Progress progress={90} />
+        Netlify: <Progress progress={90} style={{ color: generateColor }} />
       </p>
       <p>
-        Heroku: <Progress progress={98} />
+        Heroku: <Progress progress={98} style={{ color: generateColor }} />
       </p>
       <p>
-        GitHub: <Progress progress={80} />
+        GitHub: <Progress progress={80} style={{ color: generateColor }} />
       </p>
       <p>
-        Jest: <Progress progress={80} />
+        Jest: <Progress progress={80} style={{ color: generateColor }} />
       </p>
     </div>
   </div>
