@@ -62,6 +62,24 @@ const Skills = () => (
         Bootstrap: <Progress progress={95} />
       </p>
     </div>
+    <div>
+      <h2>Technologies</h2>
+      <p>
+        MySQL: <Progress progress={50} />
+      </p>
+      <p>
+        Netlify: <Progress progress={90} />
+      </p>
+      <p>
+        Heroku: <Progress progress={98} />
+      </p>
+      <p>
+        GitHub: <Progress progress={80} />
+      </p>
+      <p>
+        Jest: <Progress progress={80} />
+      </p>
+    </div>
   </div>
 );
 
