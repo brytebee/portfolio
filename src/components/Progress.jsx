@@ -1,7 +1,9 @@
 import React from 'react';
 import { CircularProgress } from '@material-ui/core';
 import { PropTypes } from 'prop-types';
-// import generateColor from '../data/generateColor';
+import LinearProgress from '@mui/material/LinearProgress';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
 
 const Progress = ({ progress, color }) => (
   <CircularProgress
@@ -17,12 +19,6 @@ const Progress = ({ progress, color }) => (
 Progress.propTypes = {
   progress: PropTypes.number.isRequired,
 };
-
-import * as React from 'react';
-import PropTypes from 'prop-types';
-import LinearProgress from '@mui/material/LinearProgress';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
 
 function LinearProgressWithLabel(props) {
   return (
@@ -40,20 +36,16 @@ function LinearProgressWithLabel(props) {
 }
 
 LinearProgressWithLabel.propTypes = {
-  /**
-   * The value of the progress indicator for the determinate and buffer variants.
-   * Value between 0 and 100.
-   */
   value: PropTypes.number.isRequired,
 };
 
-export function LinearProgress({ progress }) {
-  [progress, setProgress] = React.useState(10);
+export function MyLinearProgress({ value }) {
+  const [progress, setProgress] = React.useState(value);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
       setProgress((prevProgress) =>
-        prevProgress >= 100 ? 10 : prevProgress + 10
+        prevProgress >= progress ? 10 : prevProgress + 10
       );
     }, 800);
     return () => {

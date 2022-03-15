@@ -1,5 +1,5 @@
 import React from 'react';
-import Progress from '../components/Progress';
+import Progress, { MyLinearProgress } from '../components/Progress';
 import generateColor from '../data/generateColor';
 
 const techs = [
@@ -34,7 +34,7 @@ const Skills = () => (
       <h2 style={{ color: generateColor }}>Programming languages</h2>
       <div className="d-flex">
         <p>
-          JavaScript: <Progress progress={80} />
+          JavaScript: <MyLinearProgress value={80} />
         </p>
         <p>
           Ruby: <Progress progress={70} />
