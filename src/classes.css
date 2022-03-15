@@ -16,6 +16,10 @@
   font-size: 23px;
 }
 
+.progressbar {
+  width: 10%;
+}
+
 @media screen and (max-width: 769px) {
   .nav-desktop {
     display: none;
