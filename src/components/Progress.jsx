@@ -1,24 +1,8 @@
 import React from 'react';
-import { CircularProgress } from '@material-ui/core';
 import { PropTypes } from 'prop-types';
 import LinearProgress from '@mui/material/LinearProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-
-const Progress = ({ progress, color }) => (
-  <CircularProgress
-    color={color}
-    size={95}
-    thickness={2}
-    className="progressbar"
-    variant="determinate"
-    value={progress}
-  />
-);
-
-Progress.propTypes = {
-  progress: PropTypes.number.isRequired,
-};
 
 function LinearProgressWithLabel(props) {
   return (
@@ -47,7 +31,7 @@ export function MyLinearProgress({ value }) {
       setProgress((prevProgress) =>
         prevProgress >= progress ? 10 : prevProgress + 10
       );
-    }, 800);
+    }, 1800);
     return () => {
       clearInterval(timer);
     };
@@ -60,4 +44,4 @@ export function MyLinearProgress({ value }) {
   );
 }
 
-export default Progress;
+export default MyLinearProgress;

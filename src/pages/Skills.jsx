@@ -1,32 +1,32 @@
 import React from 'react';
-import Progress, { MyLinearProgress } from '../components/Progress';
+import MyLinearProgress from '../components/Progress';
 import generateColor from '../data/generateColor';
 
-const techs = [
-  {
-    name: 'Programming languages',
-    JavaScript: 80,
-    Ruby: 70,
-    HTML5: 95,
-    CSS: 65,
-    SQL: 85,
-    Haml: 60,
-  },
-  {
-    name: 'Frameworks',
-    ReactJS: 80,
-    'Ruby on Rails': 70,
-    Bootstrap: 95,
-  },
-  {
-    name: 'Technologies',
-    MySQL: 50,
-    Netlify: 90,
-    Heroku: 98,
-    GitHub: 80,
-    Jest: 80,
-  },
-];
+// const techs = [
+//   {
+//     name: 'Programming languages',
+//     JavaScript: 80,
+//     Ruby: 70,
+//     HTML5: 95,
+//     CSS: 65,
+//     SQL: 85,
+//     Haml: 60,
+//   },
+//   {
+//     name: 'Frameworks',
+//     ReactJS: 80,
+//     'Ruby on Rails': 70,
+//     Bootstrap: 95,
+//   },
+//   {
+//     name: 'Technologies',
+//     MySQL: 50,
+//     Netlify: 90,
+//     Heroku: 98,
+//     GitHub: 80,
+//     Jest: 80,
+//   },
+// ];
 
 const Skills = () => (
   <div className="gen-padding">
@@ -37,19 +37,19 @@ const Skills = () => (
           JavaScript: <MyLinearProgress value={80} />
         </p>
         <p>
-          Ruby: <Progress progress={70} />
+          Ruby: <MyLinearProgress value={70} />
         </p>
         <p>
-          HTML5: <Progress progress={95} />
+          HTML5: <MyLinearProgress value={95} />
         </p>
         <p>
-          CSS: <Progress progress={65} />
+          CSS: <MyLinearProgress value={65} />
         </p>
         <p>
-          SQL: <Progress progress={85} />
+          SQL: <MyLinearProgress value={85} />
         </p>
         <p>
-          Haml: <Progress progress={60} />
+          Haml: <MyLinearProgress value={60} />
         </p>
       </div>
     </div>
@@ -57,13 +57,13 @@ const Skills = () => (
       <h2>Frameworks</h2>
       <div className="d-flex">
         <p>
-          ReactJS: <Progress progress={80} />
+          ReactJS: <MyLinearProgress value={80} />
         </p>
         <p>
-          Ruby on Rails: <Progress progress={70} />
+          Ruby on Rails: <MyLinearProgress value={70} />
         </p>
         <p>
-          Bootstrap: <Progress progress={95} />
+          Bootstrap: <MyLinearProgress value={95} />
         </p>
       </div>
     </div>
@@ -71,19 +71,19 @@ const Skills = () => (
       <h2>Technologies</h2>
       <div className="d-flex">
         <p>
-          MySQL: <Progress progress={50} />
+          MySQL: <MyLinearProgress value={50} />
         </p>
         <p>
-          Netlify: <Progress progress={90} />
+          Netlify: <MyLinearProgress value={90} />
         </p>
         <p>
-          Heroku: <Progress progress={98} />
+          Heroku: <MyLinearProgress value={98} />
         </p>
         <p>
-          GitHub: <Progress progress={80} />
+          GitHub: <MyLinearProgress value={80} />
         </p>
         <p>
-          Jest: <Progress progress={80} />
+          Jest: <MyLinearProgress value={80} />
         </p>
       </div>
     </div>
