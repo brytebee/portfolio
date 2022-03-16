@@ -1,5 +1,5 @@
 import React from 'react';
 
-const LandingPages = () => <div>LandingPages</div>;
+const LandingPages = () => <div className="gen-padding">LandingPages</div>;
 
 export default LandingPages;

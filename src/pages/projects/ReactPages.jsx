@@ -1,5 +1,5 @@
 import React from 'react';
 
-const ReactPages = () => <div>ReactPages</div>;
+const ReactPages = () => <div className="gen-padding">ReactPages</div>;
 
 export default ReactPages;
