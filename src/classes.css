@@ -44,6 +44,19 @@
   border: 1px solid darkmagenta;
 }
 
+.list {
+  overflow: scroll;
+  height: 100vh;
+  width: 220px;
+}
+
+.list-image {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 769px) {
   .nav-desktop {
     display: none;
