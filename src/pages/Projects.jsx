@@ -1,15 +1,24 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Projects = () => (
   <div className="gen-padding">
     <div className="projects">
       <div className="top">
-        <div className="card">React</div>
-        <div className="card">Rails</div>
+        <Link className="card" to="/projects/react">
+          React
+        </Link>
+        <Link className="card" to="/projects/rails">
+          Rails
+        </Link>
       </div>
       <div className="bottom">
-        <div className="card">JavaScript</div>
-        <div className="card">Landing pages</div>
+        <Link className="card" to="/projects/js">
+          JavaScript
+        </Link>
+        <Link className="card" to="/projects/landing">
+          Landing pages
+        </Link>
       </div>
     </div>
   </div>
