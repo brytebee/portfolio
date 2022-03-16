@@ -1,27 +1,27 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => (
   <nav className="navigations">
     <ul className="d-flex">
-      <li>
-        {" "}
+      <li className="li-nav">
+        {' '}
         <NavLink to="/">Home</NavLink>
       </li>
-      <li>
-        {" "}
+      <li className="li-nav">
+        {' '}
         <NavLink to="/skills">Skills</NavLink>
       </li>
-      <li>
-        {" "}
+      <li className="li-nav">
+        {' '}
         <NavLink to="/projects">Projects</NavLink>
       </li>
-      <li>
-        {" "}
+      <li className="li-nav">
+        {' '}
         <NavLink to="/about">About</NavLink>
       </li>
-      <li>
-        {" "}
+      <li className="li-nav">
+        {' '}
         <NavLink to="/contact">Contact</NavLink>
       </li>
     </ul>

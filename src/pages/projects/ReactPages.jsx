@@ -69,6 +69,24 @@ const ReactPages = () => {
           ''
         )}
       </div>
+      <div className="description">
+        <div id="discription1" className="desc">
+          <h3>React | COVID19 STATS</h3>
+          <p>
+            A covid19 stats app build with ReactJS at Microverse. Built with
+            React, Redux and API. I wrote tests using Jest and React Testing
+            Library.
+          </p>
+          <ul>
+            <li>ReactJS - Function based component</li>
+            <li>Redux</li>
+            <li>API</li>
+          </ul>
+          <a href="https://brytebee.github.io/Bookstore-React/" target="_blank">
+            Live link
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
