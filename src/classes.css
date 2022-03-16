@@ -16,6 +16,25 @@
   font-size: 23px;
 }
 
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  height: 200px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  margin: 0 50px 50px 0;
+  background-color: rgb(231, 231, 241);
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 769px) {
   .nav-desktop {
     display: none;
