@@ -24,7 +24,7 @@
 
 .card {
   height: 200px;
-  width: 500px;
+  width: 800px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -33,6 +33,16 @@
   margin: 0 50px 50px 0;
   background-color: rgb(231, 231, 241);
   font-size: 2rem;
+  border-radius: 17px;
+  cursor: pointer;
+  color: darkmagenta;
+  border: 1px solid darkmagenta;
+}
+
+.card:hover {
+  background-color: darkmagenta;
+  color: rgb(231, 231, 241);
+  border: 1px solid darkmagenta;
 }
 
 @media screen and (max-width: 769px) {
