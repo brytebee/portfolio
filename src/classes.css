@@ -46,7 +46,6 @@
 
 .list {
   overflow: scroll;
-  height: 90vh;
   width: 220px;
 }
 
@@ -57,8 +56,15 @@
   margin-bottom: 20px;
 }
 
+.images {
+  margin: 16px 8rem 0;
+  overflow: scroll;
+  width: 700px;
+}
+
 .gallery {
   display: flex;
+  height: 90vh;
 }
 
 @media screen and (max-width: 769px) {
