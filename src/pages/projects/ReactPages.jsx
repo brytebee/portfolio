@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const handleClick = (e) => {
-  console.log('target', e.target.id);
-  if (e.target.id === 1) {
-  }
-};
-
 const ReactPages = () => {
   const [show, setShow] = useState(1);
+
+  const handleClick = (e) => {
+    if (e.target.id === 1) {
+    }
+  };
+
   return (
     <div className="gen-padding">
       <div className="list">
