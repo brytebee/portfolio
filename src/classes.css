@@ -57,6 +57,10 @@
   margin-bottom: 20px;
 }
 
+.gallery {
+  display: flex;
+}
+
 @media screen and (max-width: 769px) {
   .nav-desktop {
     display: none;
