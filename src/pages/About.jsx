@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => (
   <div className="gen-padding">
-    <section className="about-content">
-      <div>
+    <section className="about d-flex">
+      <div className="about-content">
         <h2>Hello there!</h2>
         <p>
           I used to be a sales representative but that's a fancy term. In my
@@ -39,7 +39,7 @@ const About = () => (
         <h3>Atsighi Bright</h3>
       </div>
       <img
-        style={{ width: '700px' }}
+        style={{ width: '600px', padding: '2rem' }}
         src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
         alt="Bright cartooned playing guitar"
       />
