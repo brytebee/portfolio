@@ -8,6 +8,10 @@ const About = () => (
       country, Nigeria, it is called sales boy. I worked in this position for
       about 3 years while waiting for a dream job.
     </p>
+    <p>
+      A dream job refers to a white/blue-collar job in my locality. And although
+      I had heard and loved programming earlier, I never knew how to become one.
+    </p>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
