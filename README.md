@@ -6,7 +6,7 @@ A personal project created to host my projects. It serves as an online Resume. I
 
 ## Screenshot
 
-![Capstone React](https://user-images.githubusercontent.com/27709832/157883026-89e3ecca-f26d-46c6-9917-2dc1dc072316.png)
+![image](https://user-images.githubusercontent.com/27709832/158817441-bce3913f-7547-4085-8cfc-517c6003d975.png)
 
 `Current screenshot`
 
