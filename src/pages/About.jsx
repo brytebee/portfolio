@@ -30,7 +30,19 @@ const About = () => (
           src="https://media.giphy.com/media/DWUEBCadFCSc0/giphy.gif"
           width="250px"
           frameBorder="0"
-          class="giphy-embed"
+          alt="Google gif"
+        ></img>
+        <img
+          src="https://media.giphy.com/media/MBy8TLwJWiO6at4nF9/giphy.gif"
+          width="100px"
+          frameBorder="0"
+          class="Pluralsight gif"
+        ></img>
+        <img
+          src="https://media.giphy.com/media/MBy8TLwJWiO6at4nF9/giphy.gif"
+          width="100px"
+          frameBorder="0"
+          class="Pluralsight gif"
         ></img>
         <p>via GIPHY</p>
         <p>
