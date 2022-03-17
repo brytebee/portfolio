@@ -12,6 +12,11 @@ const About = () => (
       A dream job refers to a white/blue-collar job in my locality. And although
       I had heard and loved programming earlier, I never knew how to become one.
     </p>
+    <p>
+      Then came Andela 4.0 in 2019. This was a programme by google, Andela and
+      Pluralsight, a fourth in its series and an entry for me into the tech
+      space.
+    </p>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
