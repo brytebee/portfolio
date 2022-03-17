@@ -35,9 +35,9 @@ const ReactPages = () => {
         <img
           className="list-image"
           onClick={handleClick}
-          id="2"
-          src="https://user-images.githubusercontent.com/27709832/158596891-26a5f175-b4e1-4963-82c5-9e12f4da263c.png"
-          alt="Books store"
+          id="4"
+          src="https://user-images.githubusercontent.com/27709832/154130653-c852822a-dd60-42cf-8525-47bf9d58ff55.png"
+          alt="Math Magician"
         />
       </div>
       <div className="images">
@@ -62,7 +62,15 @@ const ReactPages = () => {
             className="show-image"
             id="image3"
             src="https://user-images.githubusercontent.com/27709832/154051255-6d06148d-d50a-447e-89e4-32eb3cf8b06c.png"
-            alt="Books store"
+            alt="Modern Todo List"
+          />
+        )}
+        {show === 4 && (
+          <img
+            className="show-image"
+            id="image4"
+            src="https://user-images.githubusercontent.com/27709832/154130653-c852822a-dd60-42cf-8525-47bf9d58ff55.png"
+            alt="Math Magician"
           />
         )}
       </div>
@@ -110,7 +118,7 @@ const ReactPages = () => {
           </div>
         )}
         {show === 3 && (
-          <div id="discription2" className="desc">
+          <div id="discription3" className="desc">
             <h3>React TodoList App</h3>
             <p>
               A simple todo list. The application is built with ReactJS and
@@ -123,6 +131,26 @@ const ReactPages = () => {
             </ul>
             <a href="https://brytebee.github.io/react-todo/" target="_blank">
               Modern Todo List Live link
+            </a>
+          </div>
+        )}
+        {show === 4 && (
+          <div id="discription4" className="desc">
+            <h3>Math Magician</h3>
+            <p>
+              "Math magicians" is a website for all fans of mathematics. It is a
+              Single Page App (SPA) that allows users to make simple
+              calculations. and read a random math-related quote.
+            </p>
+            <ul>
+              <li>ReactJS</li>
+              <li>API</li>
+            </ul>
+            <a
+              href="https://react-bookstore-bryte.herokuapp.com/"
+              target="_blank"
+            >
+              Math Magician Live link
             </a>
           </div>
         )}
