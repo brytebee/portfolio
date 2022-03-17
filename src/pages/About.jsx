@@ -93,8 +93,10 @@ const About = () => (
           src={BrightOnSuit}
           alt="Bright cartooned playing guitar"
         />
-        <h3>Atsighi Bright</h3>
-        <h6>Software Developer</h6>
+        <div className="signature">
+          <h3>Atsighi Bright</h3>
+          <h6>Software Developer</h6>
+        </div>
       </section>
     </section>
   </section>
