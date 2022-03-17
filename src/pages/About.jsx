@@ -32,6 +32,7 @@ const About = () => (
       build and learn at the same time. This is why you should consider me to be
       a part of your team or build your solution.
     </p>
+    <p>Let's build better solutions and a better world.</p>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
