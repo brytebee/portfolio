@@ -81,7 +81,6 @@ const About = () => (
           interest you.
         </p>
         <p>I also love to bake or ‘organise’ sumptuous meals😋🎂.</p>
-        <h3>Atsighi Bright</h3>
       </article>
       <section className="about-images">
         <img
@@ -94,6 +93,8 @@ const About = () => (
           src={BrightOnSuit}
           alt="Bright cartooned playing guitar"
         />
+        <h3>Atsighi Bright</h3>
+        <h6>Software Developer</h6>
       </section>
     </section>
   </section>
