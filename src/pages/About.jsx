@@ -73,13 +73,14 @@ const About = () => (
         </p>
         <p>Let's build better solutions and a better world.</p>
 
-        <h3>Hobbies</h3>
+        <h3>Hobbies🤽‍♂️🏅</h3>
         <p>
-          When I am not writing computer codes, I am seeing movies, travelling,
-          singing in my band or writing an article. Feel free to drop by my
-          articles page to see if some of my posts might interest you.
+          When I am not writing computer codes🧑‍💻👨‍💻, I am seeing movies🎬🎥,
+          travelling✈️🚙, singing in my band🎤🎶 or writing an article✍️📝. Feel
+          free to drop by my articles page to see if some of my posts might
+          interest you.
         </p>
-        <p>I also love to bake or ‘organise’ sumptuous meals.</p>
+        <p>I also love to bake or ‘organise’ sumptuous meals😋🎂.</p>
         <h3>Atsighi Bright</h3>
       </article>
       <section className="about-images">
