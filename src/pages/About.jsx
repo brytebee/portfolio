@@ -43,6 +43,7 @@ const About = () => (
           singing in my band or writing an article. Feel free to drop by my
           articles page to see if some of my posts might interest you.
         </p>
+        <p>I also love to bake or ‘organise’ sumptuous meals.</p>
         <h3>Atsighi Bright</h3>
       </article>
       <img
