@@ -1,9 +1,9 @@
 import React from 'react';
 
 const About = () => (
-  <div className="gen-padding">
+  <section className="gen-padding">
     <section className="about d-flex">
-      <div className="about-content">
+      <article className="about-content">
         <h2>Hello there!</h2>
         <p>
           I used to be a sales representative but that's a fancy term. In my
@@ -37,14 +37,14 @@ const About = () => (
         </p>
         <p>Let's build better solutions and a better world.</p>
         <h3>Atsighi Bright</h3>
-      </div>
+      </article>
       <img
         style={{ width: '600px', padding: '2rem' }}
         src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
         alt="Bright cartooned playing guitar"
       />
     </section>
-  </div>
+  </section>
 );
 
 export default About;
