@@ -38,6 +38,11 @@ const About = () => (
         <p>Let's build better solutions and a better world.</p>
 
         <h4>Hobbies</h4>
+        <p>
+          When I am not writing computer codes, I am seeing movies, travelling,
+          singing in my band or writing an article. Feel free to drop by my
+          articles page to see if some of my posts might interest you.
+        </p>
         <h3>Atsighi Bright</h3>
       </article>
       <img
