@@ -27,6 +27,11 @@ const About = () => (
       programmers. I joined microverse in January 2021 and as the saying goes,
       the rest is history…
     </p>
+    <p>
+      Today, I have learned some of the best technologies in the industry. I
+      build and learn at the same time. This is why you should consider me to be
+      a part of your team or build your solution.
+    </p>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
