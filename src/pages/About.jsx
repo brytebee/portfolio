@@ -36,10 +36,12 @@ const About = () => (
           to be a part of your team or build your solution.
         </p>
         <p>Let's build better solutions and a better world.</p>
+
+        <h4>Hobbies</h4>
         <h3>Atsighi Bright</h3>
       </article>
       <img
-        style={{ width: '600px', padding: '2rem' }}
+        style={{ width: '600px', padding: '2rem 0 2rem 2rem' }}
         src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
         alt="Bright cartooned playing guitar"
       />
