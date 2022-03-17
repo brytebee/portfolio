@@ -6,9 +6,9 @@ const About = () => (
       <article className="about-content">
         <h2>Hello there! 👋👋</h2>
         <p>
-          I used to be a sales representative but that's a fancy term. In my
-          country, Nigeria, it is called a sales boy. I worked in this position
-          for about 3 years while waiting for a dream job.
+          I used to be a sales representative 😎😎 but that's a fancy term. In
+          my country, Nigeria, it is called a sales boy. I worked in this
+          position for about 3 years while waiting for a dream job.
         </p>
         <img
           style={{ width: '300px' }}
@@ -25,15 +25,28 @@ const About = () => (
           and Pluralsight, a fourth in its series and an entry for me into the
           tech space.
         </p>
+        <img
+          src="https://media.giphy.com/media/DWUEBCadFCSc0/giphy.gif"
+          width="480"
+          height="270"
+          frameBorder="0"
+          class="giphy-embed"
+          allowFullScreen
+        ></img>
+        <p>via GIPHY</p>
         <p>
           During the pandemic, I quit my job and began a full-time journey with
           the help of family and mentors. I took courses from freeCodeCamp,
           Coursera, Udacity and Udemy and as well YouTube.
         </p>
         <p>
-          Soon I learned about Microverse and the beautiful opportunity it
-          offered programmers. I joined microverse in January 2021 and as the
-          saying goes, the rest is history…
+          Soon I learned about{' '}
+          <a target="_blank" href="https://www.microverse.org/?grsf=rxykm0">
+            Microverse
+          </a>{' '}
+          and the beautiful opportunity it offered programmers. I joined
+          microverse in January 2021 and as the saying goes, the rest is
+          history…
         </p>
         <p>
           Today, I have learned some of the best technologies in the industry. I
