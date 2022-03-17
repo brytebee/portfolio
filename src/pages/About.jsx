@@ -4,7 +4,7 @@ const About = () => (
   <section className="gen-padding">
     <section className="about d-flex">
       <article className="about-content">
-        <h2>Hello there!</h2>
+        <h2>Hello there! 👋👋</h2>
         <p>
           I used to be a sales representative but that's a fancy term. In my
           country, Nigeria, it is called sales boy. I worked in this position
@@ -37,7 +37,7 @@ const About = () => (
         </p>
         <p>Let's build better solutions and a better world.</p>
 
-        <h4>Hobbies</h4>
+        <h3>Hobbies</h3>
         <p>
           When I am not writing computer codes, I am seeing movies, travelling,
           singing in my band or writing an article. Feel free to drop by my
