@@ -7,7 +7,7 @@ const About = () => (
         <h2>Hello there! 👋👋</h2>
         <p>
           I used to be a sales representative but that's a fancy term. In my
-          country, Nigeria, it is called sales boy. I worked in this position
+          country, Nigeria, it is called a sales boy. I worked in this position
           for about 3 years while waiting for a dream job.
         </p>
         <p>
