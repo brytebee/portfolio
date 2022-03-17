@@ -12,7 +12,7 @@ const About = () => (
           position for about 3 years while waiting for a dream job.
         </p>
         <img
-          style={{ width: '300px' }}
+          style={{ width: '250px', height: '250px' }}
           src="https://media.giphy.com/media/a6h71JgwZKz6w/giphy.gif"
           alt="happy Mr. Bean"
         />
@@ -28,11 +28,9 @@ const About = () => (
         </p>
         <img
           src="https://media.giphy.com/media/DWUEBCadFCSc0/giphy.gif"
-          width="480"
-          height="270"
+          width="250px"
           frameBorder="0"
           class="giphy-embed"
-          allowFullScreen
         ></img>
         <p>via GIPHY</p>
         <p>
@@ -65,16 +63,18 @@ const About = () => (
         <p>I also love to bake or ‘organise’ sumptuous meals.</p>
         <h3>Atsighi Bright</h3>
       </article>
-      <img
-        style={{ width: '650px', padding: '2rem 0 2rem 2rem' }}
-        src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
-        alt="Bright cartooned playing guitar"
-      />
-      <img
-        style={{ width: '650px', padding: '2rem 0 2rem 2rem' }}
-        src={BrightOnSuit}
-        alt="Bright cartooned playing guitar"
-      />
+      <section className="about-images">
+        <img
+          style={{ width: '400px', padding: '2rem 0 2rem 2rem' }}
+          src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
+          alt="Bright cartooned playing guitar"
+        />
+        <img
+          style={{ width: '400px', padding: '2rem 0 2rem 2rem' }}
+          src={BrightOnSuit}
+          alt="Bright cartooned playing guitar"
+        />
+      </section>
     </section>
   </section>
 );
