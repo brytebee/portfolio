@@ -1,4 +1,5 @@
 import React from 'react';
+import BrightOnSuit from '../assets/suit-black20.JPG';
 
 const About = () => (
   <section className="gen-padding">
@@ -67,6 +68,11 @@ const About = () => (
       <img
         style={{ width: '650px', padding: '2rem 0 2rem 2rem' }}
         src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
+        alt="Bright cartooned playing guitar"
+      />
+      <img
+        style={{ width: '650px', padding: '2rem 0 2rem 2rem' }}
+        src={BrightOnSuit}
         alt="Bright cartooned playing guitar"
       />
     </section>
