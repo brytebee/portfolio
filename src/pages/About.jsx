@@ -33,10 +33,10 @@ const About = () => (
           alt="Google gif"
         ></img>
         <img
-          src="https://media.giphy.com/media/MBy8TLwJWiO6at4nF9/giphy.gif"
+          src="https://live.staticflickr.com/65535/50636964996_a0cde8e5a0_o.png"
           width="100px"
           frameBorder="0"
-          class="Pluralsight gif"
+          class="Andela logo"
         ></img>
         <img
           src="https://media.giphy.com/media/MBy8TLwJWiO6at4nF9/giphy.gif"
