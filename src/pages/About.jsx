@@ -33,6 +33,7 @@ const About = () => (
       a part of your team or build your solution.
     </p>
     <p>Let's build better solutions and a better world.</p>
+    <h6>Atsighi Bright</h6>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
