@@ -17,6 +17,11 @@ const About = () => (
       Pluralsight, a fourth in its series and an entry for me into the tech
       space.
     </p>
+    <p>
+      During the pandemic, I quit my job and began a full-time journey with the
+      help of family and mentors. I took courses from freeCodeCamp, Coursera,
+      Udacity and Udemy and as well YouTube.
+    </p>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
