@@ -22,6 +22,11 @@ const About = () => (
       help of family and mentors. I took courses from freeCodeCamp, Coursera,
       Udacity and Udemy and as well YouTube.
     </p>
+    <p>
+      Soon I learned about Microverse and the beautiful opportunity it offered
+      programmers. I joined microverse in January 2021 and as the saying goes,
+      the rest is history…
+    </p>
     <img
       style={{ width: '700px' }}
       src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
