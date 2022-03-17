@@ -10,10 +10,15 @@ const About = () => (
           country, Nigeria, it is called a sales boy. I worked in this position
           for about 3 years while waiting for a dream job.
         </p>
+        <img
+          style={{ width: '300px' }}
+          src="https://media.giphy.com/media/a6h71JgwZKz6w/giphy.gif"
+          alt="happy Mr. Bean"
+        />
         <p>
           A dream job refers to a white/blue-collar job in my locality. And
           although I had heard and loved programming earlier, I never knew how
-          to become one.
+          to become one. 😭😭
         </p>
         <p>
           Then came Andela 4.0 in 2019. This was a programme by google, Andela
@@ -47,7 +52,7 @@ const About = () => (
         <h3>Atsighi Bright</h3>
       </article>
       <img
-        style={{ width: '600px', padding: '2rem 0 2rem 2rem' }}
+        style={{ width: '650px', padding: '2rem 0 2rem 2rem' }}
         src="https://access1.imglarger.com/results/NAOYR73v_male_3_cartoon11.png"
         alt="Bright cartooned playing guitar"
       />
