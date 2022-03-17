@@ -12,7 +12,7 @@ const About = () => (
           position for about 3 years while waiting for a dream job.
         </p>
         <img
-          style={{ width: '250px', height: '250px' }}
+          style={{ width: '250px', height: '140px' }}
           src="https://media.giphy.com/media/a6h71JgwZKz6w/giphy.gif"
           alt="happy Mr. Bean"
         />
@@ -59,10 +59,17 @@ const About = () => (
           microverse in January 2021 and as the saying goes, the rest is
           history…
         </p>
+        <img
+          style={{ width: '130px', borderRadius: '27px' }}
+          src="https://miro.medium.com/max/1080/1*YBmB5ot7SButH6TkIaA1mg.png"
+          width="600px"
+          frameBorder="0"
+          class="Microverse img"
+        ></img>
         <p>
-          Today, I have learned some of the best technologies in the industry. I
-          build and learn at the same time. This is why you should consider me
-          to be a part of your team or build your solution.
+          Today, I have learned some of the best technologies in the
+          industry.💪💪 I build and learn at the same time. This is why you
+          should consider me to be a part of your team or build your solution.
         </p>
         <p>Let's build better solutions and a better world.</p>
 
