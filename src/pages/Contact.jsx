@@ -11,7 +11,11 @@ const Contact = () => (
         cols="30"
         rows="10"
         placeholder="Message"
-      ></textarea>
+        required
+      />
+      <button type="submit" id="submit">
+        Send
+      </button>
     </form>
   </div>
 );
