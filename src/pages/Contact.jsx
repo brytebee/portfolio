@@ -6,6 +6,12 @@ const Contact = () => (
     <form action="" method="post">
       <input type="text" placeholder="Name" required />
       <input type="email" placeholder="Email Address" required />
+      <textarea
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Message"
+      ></textarea>
     </form>
   </div>
 );
