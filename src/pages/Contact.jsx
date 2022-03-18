@@ -11,20 +11,31 @@ const Contact = () => (
         display: 'flex',
         flexDirection: 'column',
         textAlign: 'center',
+        justifyContent: 'center',
       }}
     >
-      <input type="text" placeholder="Name" required />
-      <input type="email" placeholder="Email Address" required />
-      <textarea
-        id="message"
-        cols="30"
-        rows="10"
-        placeholder="Message"
-        required
-      />
-      <button type="submit" id="submit">
-        Send
-      </button>
+      <section>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Message"
+          required
+        />
+        <button
+          type="submit"
+          id="submit"
+          style={{
+            margin: '8px 90px',
+            backgroundColor: 'blueviolet',
+            padding: '4px',
+          }}
+        >
+          Send
+        </button>
+      </section>
     </form>
   </div>
 );
