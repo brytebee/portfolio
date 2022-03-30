@@ -72,19 +72,6 @@
   margin: 1rem;
 }
 
-.about-content {
-  flex: 2;
-}
-
-.about-images {
-  flex: 2;
-  padding: 2rem 0 2rem 2rem;
-}
-
-.signature {
-  text-align: center;
-}
-
 @media screen and (max-width: 769px) {
   .nav-desktop {
     display: none;
